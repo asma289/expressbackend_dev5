@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <a href="/allcars">Toutes les voitures </a>
+        <a href="/newcar">Ajouter une nouvelle voiture </a>
+    </nav>
+
+    <form action="/nouvellevoiture" method="post">
+        <label for="marque">Marque</label>
+        <input type="text" name="marque">
+        <label for="modele">Modele</label>
+        <input type="text" name="modele">
+        
+        <label for="description">Description </label>
+        <textarea name="description" id="description"></textarea>
+
+        <input type="submit" value="créer une nouvelle voiture">
+    </form>
+</body>
+</html>
